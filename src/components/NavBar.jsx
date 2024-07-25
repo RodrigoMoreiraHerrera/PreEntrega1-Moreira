@@ -44,7 +44,7 @@ export const NavBar = () => {
                             aria-label="Search"
                         />
                         <Button variant="outline-warning" ><i className="bi bi-search "></i></Button>
-                        <CartWidget />
+                        <CartWidget widGet="4" />
                         <Button variant="outline-warning"><i className="bi bi-person-gear"></i></Button>
                     </Form>
                 </Navbar.Collapse>
