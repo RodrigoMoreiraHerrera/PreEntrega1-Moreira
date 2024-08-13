@@ -1,0 +1,74 @@
+[
+  {
+    "id": "t1",
+    "title": "Neumatico pirelli",
+    "category": "tyres",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia delectus fugit eligendi. Culpa ea vel at saepe. Vero saepe, deleniti porro officia cupiditate quis velit. Adipisci quam deserunt quo?",
+    "imgUrl": "/src/img/tyres/neumatico-pirelli.jpeg",
+    "price": 150
+  },
+  {
+    "id": "t2",
+    "title": "Neumatico momo",
+    "category": "tyres",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia delectus fugit eligendi. Culpa ea vel at saepe. Vero saepe, deleniti porro officia cupiditate quis velit. Adipisci quam deserunt quo?",
+    "imgUrl": "/src/img/tyres/neumatico-momo.jpeg",
+    "price": 150
+  },
+  {
+    "id": "t3",
+    "title": "Neumatico M/T",
+    "category": "tyres",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia delectus fugit eligendi. Culpa ea vel at saepe. Vero saepe, deleniti porro officia cupiditate quis velit. Adipisci quam deserunt quo?",
+    "imgUrl": "/src/img/tyres/neumatico-mt.jpeg",
+    "price": 150
+  },
+  {
+    "id": "b1",
+    "title": "Bateria 90A",
+    "category": "baterys",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia delectus fugit eligendi. Culpa ea vel at saepe. Vero saepe, deleniti porro officia cupiditate quis velit. Adipisci quam deserunt quo?",
+    "imgUrl": "/src/img/baterys/bateria.jpeg",
+    "price": 150
+  },
+  {
+    "id": "b2",
+    "title": "Bateira 110A ",
+    "category": "baterys",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia delectus fugit eligendi. Culpa ea vel at saepe. Vero saepe, deleniti porro officia cupiditate quis velit. Adipisci quam deserunt quo?",
+    "imgUrl": "/src/img/baterys/bateria-gris.jpeg",
+    "price": 150
+  },
+  {
+    "id": "b3",
+    "title": "Bateria 130A",
+    "category": "baterys",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia delectus fugit eligendi. Culpa ea vel at saepe. Vero saepe, deleniti porro officia cupiditate quis velit. Adipisci quam deserunt quo?",
+    "imgUrl": "/src/img/baterys/bateria.jpeg",
+    "price": 150
+  },
+  {
+    "id": "s1",
+    "title": "Cambio de aceite",
+    "category": "services",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia delectus fugit eligendi. Culpa ea vel at saepe. Vero saepe, deleniti porro officia cupiditate quis velit. Adipisci quam deserunt quo?",
+    "imgUrl": "/src/img/services/aceite.jpeg",
+    "price": 150
+  },
+  {
+    "id": "s2",
+    "title": "Alineacion y balanceo",
+    "category": "services",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia delectus fugit eligendi. Culpa ea vel at saepe. Vero saepe, deleniti porro officia cupiditate quis velit. Adipisci quam deserunt quo?",
+    "imgUrl": "/src/img/services/alin-bal.jpeg",
+    "price": 150
+  },
+  {
+    "id": "s3",
+    "title": "Servicios programados",
+    "category": "services",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia delectus fugit eligendi. Culpa ea vel at saepe. Vero saepe, deleniti porro officia cupiditate quis velit. Adipisci quam deserunt quo?",
+    "imgUrl": "/src/img/services/servicio.jpeg",
+    "price": 150
+  }
+]

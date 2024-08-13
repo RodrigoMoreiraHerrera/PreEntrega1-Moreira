@@ -1,3 +1,7 @@
 button {
     margin: 0 3px;
 }
+
+.navBrand img {
+    height: 65px;
+}

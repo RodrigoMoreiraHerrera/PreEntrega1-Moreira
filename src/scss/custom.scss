@@ -1,0 +1,16 @@
+
+$primary: #FFD300;
+$secondary: #d9b74e;
+$dark: hsl(0, 0%, 0%);
+
+$body-bg: $dark;
+$body-color: rgb(140, 140, 140);
+
+
+$navbar-dark-active-color: $secondary;
+
+
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
