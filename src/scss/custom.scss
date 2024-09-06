@@ -4,7 +4,17 @@ $secondary: #d9b74e;
 $dark: hsl(0, 0%, 0%);
 
 $body-bg: $dark;
-$body-color: rgb(140, 140, 140);
+$body-color: rgb(164, 164, 164);
+
+
+button {
+    margin: 0 3px;
+}
+
+.navBrand img {
+    height: 65px;
+}
+
 
 
 $navbar-dark-active-color: $secondary;

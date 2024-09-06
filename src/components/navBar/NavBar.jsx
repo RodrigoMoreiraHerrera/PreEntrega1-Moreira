@@ -7,8 +7,10 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-import { CartWidget } from './CartWidget';
-import logo from '../assets/img/logo-entero.png';
+
+import logo from '../../assets/img/logo-entero.png';
+import { CartButton } from './CartButton';
+
 
 export const NavBar = () => {
     return (
@@ -46,7 +48,7 @@ export const NavBar = () => {
                             aria-label="Search"
                         />
                         <Button variant="outline-primary" ><i className="bi bi-search "></i></Button>
-                        <CartWidget widGet="4" />
+                        <CartButton />
                         <Button variant="outline-primary"><i className="bi bi-person-gear"></i></Button>
                     </Form>
                 </Navbar.Collapse>
