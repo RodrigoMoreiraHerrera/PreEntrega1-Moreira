@@ -13,7 +13,7 @@ import Spinner from 'react-bootstrap/Spinner';
 export const ItemList = ({ items }) => {
 
     return (
-        <Container className="mt-4 row" id="container">
+        <Container fluid className="mt-4 row text-center justify-content-center" id="container">
             {items.map((i) => (
                 <Item item={i} key={i.id} />
             ),

@@ -1,10 +1,16 @@
 @charset "UTF-8";
-button {
+.btn {
   margin: 0 3px;
 }
 
 .navBrand img {
   height: 65px;
+}
+
+.card img {
+  height: 260px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /*!

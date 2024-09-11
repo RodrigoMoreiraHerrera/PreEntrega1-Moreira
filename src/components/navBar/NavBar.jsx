@@ -27,18 +27,6 @@ export const NavBar = () => {
                         <Nav.Link as={NavLink} to="/category/tyres">NEUMATICOS</Nav.Link>
                         <Nav.Link as={NavLink} to="/category/baterys">BATERIAS</Nav.Link>
                         <Nav.Link as={NavLink} to="/category/services">SERVICIOS</Nav.Link>
-                        <NavDropdown title="Menú" id="navbarScrollingDropdown">
-                            <NavDropdown.Item>Vehiculos</NavDropdown.Item>
-                            <NavDropdown.Item>Servicios</NavDropdown.Item>
-                            <NavDropdown.Item>Neumaticos</NavDropdown.Item>
-                            <NavDropdown.Item>Llantas</NavDropdown.Item>
-                            <NavDropdown.Item>Baterias</NavDropdown.Item>
-                            <NavDropdown.Item>Ofertas</NavDropdown.Item>
-                            <NavDropdown.Item>Locales</NavDropdown.Item>
-
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item >Trabaja con nosotros</NavDropdown.Item>
-                        </NavDropdown>
                     </Nav>
                     <Form className="d-flex">
                         <Form.Control
