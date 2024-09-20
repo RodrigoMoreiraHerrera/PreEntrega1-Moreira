@@ -1,10 +1,19 @@
 @charset "UTF-8";
+body {
+  background-image: url("https://d1tppmbzs1w5p7.cloudfront.net/Themes/Traction/Content/img/fondo_grip.png");
+}
+
+.navbar {
+  background-image: url("https://d1tppmbzs1w5p7.cloudfront.net/Themes/Traction/Content/img/fondo_grip.png");
+  opacity: 0.9;
+}
+
 .btn {
   margin: 0 3px;
 }
 
 .navBrand img {
-  height: 65px;
+  height: 75px;
 }
 
 .card img {
@@ -94,7 +103,7 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: rgb(164, 164, 164);
   --bs-body-color-rgb: 164, 164, 164;
-  --bs-body-bg: hsl(0, 0%, 0%);
+  --bs-body-bg: rgba(0, 0, 0, 0.3);
   --bs-body-bg-rgb: 0, 0, 0;
   --bs-emphasis-color: #000;
   --bs-emphasis-color-rgb: 0, 0, 0;
@@ -2485,10 +2494,10 @@ textarea.form-control-lg {
   outline: 0;
 }
 .form-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px hsl(0, 0%, 0%), 0 0 0 0.25rem rgba(255, 211, 0, 0.25);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3), 0 0 0 0.25rem rgba(255, 211, 0, 0.25);
 }
 .form-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px hsl(0, 0%, 0%), 0 0 0 0.25rem rgba(255, 211, 0, 0.25);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3), 0 0 0 0.25rem rgba(255, 211, 0, 0.25);
 }
 .form-range::-moz-focus-outer {
   border: 0;

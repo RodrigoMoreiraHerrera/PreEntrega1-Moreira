@@ -18,6 +18,9 @@ export const CartItemDetail = ({item}) => {
                 <Card.Text>
                     Cantidad seleccionada: {item.quantity}
                 </Card.Text>
+                <Card.Text>
+                    Precio total: ${item.quantity * item.price}
+                </Card.Text>
                 <Button onClick={() => removeItem(item.id)}><i className="bi bi-trash3"></i></Button>
             </Card.Body>
         </Card>

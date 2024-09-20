@@ -3,16 +3,23 @@ $primary: #FFD300;
 $secondary: #d9b74e;
 $dark: hsl(0, 0%, 0%);
 
-$body-bg: $dark;
+$body-bg: rgba(0, 0, 0, .3);
 $body-color: rgb(164, 164, 164);
 
+body {
+    background-image: url("https://d1tppmbzs1w5p7.cloudfront.net/Themes/Traction/Content/img/fondo_grip.png");
+}
+.navbar {
+    background-image: url("https://d1tppmbzs1w5p7.cloudfront.net/Themes/Traction/Content/img/fondo_grip.png");
+    opacity: .9;
+}
 
 .btn {
     margin: 0 3px;
 }
 
 .navBrand {img {
-    height: 65px;
+    height: 75px;
 }}
 
 .card {
