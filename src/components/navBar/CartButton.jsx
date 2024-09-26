@@ -8,16 +8,14 @@ import { CartContext } from '../../context/CartContext';
 
 
 export const CartButton = () => {
-    
-    const {items} = useContext(CartContext)
-    
-    
+
+    const { items } = useContext(CartContext)
 
     return (
         <Link to={'/cart'}>
             <Button variant="outline-primary" className='position-relative'>
                 <i className="bi bi-cart"></i>
-                <CartWidget widGet={items.length} />
+                <CartWidget widGet={items.reduce((acc, act) => acc + act.quantity, 0)} />
             </Button>
         </Link>
     )

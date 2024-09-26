@@ -1,28 +1,31 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 import { useContext } from 'react';
+
+import Button from 'react-bootstrap/Button';
 
 import { CartContext } from '../../context/CartContext';
 
-export const CartItemDetail = ({item}) => {
-    const {removeItem} = useContext(CartContext)
+export const CartItemDetail = ({ item }) => {
+    const { removeItem } = useContext(CartContext)
 
     return (
-        <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={item.imgUrl} />
-            <Card.Body>
-                <Card.Title>{item.title}</Card.Title>
-                <Card.Text>
-                    {item.description}
-                </Card.Text>
-                <Card.Text>
-                    Cantidad seleccionada: {item.quantity}
-                </Card.Text>
-                <Card.Text>
-                    Precio total: ${item.quantity * item.price}
-                </Card.Text>
-                <Button onClick={() => removeItem(item.id)}><i className="bi bi-trash3"></i></Button>
-            </Card.Body>
-        </Card>
+        <>
+            <div className="card mb-3" >
+                <div className="row g-0">
+                    <div className="col-md-4">
+                        <img src={item.imgUrl} className="img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div className="col-md-8">
+                        <div className="card-body">
+                            <h5 className="card-title">{item.title}</h5>
+                            <p className="card-text">{item.description}</p>
+                            <p className="card-text"><small className="text-body-secondary">Cantidad seleccionada: {item.quantity}</small></p>
+                            <p className="card-text"><small className="text-body-secondary">Precio total: ${item.quantity * item.price}</small></p>
+                            <Button onClick={() => removeItem(item.id)}><i className="bi bi-trash3"></i></Button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     )
 }
+

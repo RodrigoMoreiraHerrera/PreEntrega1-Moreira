@@ -2,13 +2,11 @@
 import { useState, useEffect } from "react"
 import { useParams } from "react-router-dom"
 
-import { Container } from "react-bootstrap"
 import Spinner from 'react-bootstrap/Spinner';
 
 import { getFirestore, getDocs, collection, where, query } from "firebase/firestore";
 
 import { ItemList } from "./ItemList"
-
 
 
 

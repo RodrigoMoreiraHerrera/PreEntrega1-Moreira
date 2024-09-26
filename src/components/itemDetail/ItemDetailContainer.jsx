@@ -14,9 +14,7 @@ export const ItemDetailContainer = () => {
 
     const [item, setItem] = useState([]);
     const [loading, setLoading] = useState(true);
-
     const id = useParams();
-
 
 
     useEffect(() => {
@@ -25,13 +23,14 @@ export const ItemDetailContainer = () => {
 
         getDoc(itemRef)
             .then((snapshot) => {
-                setItem({...snapshot.data(), id: snapshot.id});
+                setItem({ ...snapshot.data(), id: snapshot.id });
             })
             .finally(() => setLoading(false))
-
     }, [id])
 
+
     if (loading) return <Spinner animation="border" variant="primary" />;
+
 
     return (
         <Container className="item-container">
